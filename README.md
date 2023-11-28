@@ -1,27 +1,30 @@
-## <h1><em>Olá pessoas!</em>😁</h1> 
+# Padaria do Pedrão
 
+Este projeto tem um significado especial para mim, marcando o início da minha jornada como desenvolvedor web. Desenvolvido exclusivamente com HTML e CSS, representa meu ponto de partida e testemunha meu crescimento técnico ao longo do tempo.
 
-<h3>Primeiro projeto desenvolvido por mim durante uma mentoria com o Pedro Marins. A página é de uma padaria, onde tem a sessão de início, produto, formulários de contato e trabalhe conosco. A página ficou bem completa!<h3>
+Ao revisitar este projeto, percebo o quanto avancei tecnicamente desde então. Cada linha de código reflete não apenas a estrutura do site, mas também meu aprendizado contínuo e paixão pelo desenvolvimento web.
 
+Inspirado na ideia de criar um site para uma padaria, o projeto abrange diversas páginas, incluindo seções dedicadas a produtos oferecidos, informações de contato e oportunidades de trabalho.
 
-<p>🌟 Obs: não quis dar andamento no projeto, pois, quero que vocês vejam a minha evolução tanto nos estudos, quanto no desenvolvimento dos meus códigos!</p>
+## Estrutura do Projeto
 
-#
+- **index.html**: Arquivo principal HTML.
+- **contato.html**: Arquivo página de contato HTML.
+- **produtos.html**: Arquivo página de produtos HTML.
+- **trabalhe-conosco.html**: Arquivo página trabalhe conosco HTML.
+- **assets/css**: Folhas de estilo CSS.
+- **assets/img**: Imagens utilizadas no projeto.
+- **assets/localizacao**: Folhas de estilo CSS.
 
-<p>🔨 Linguagens utilizadas: HTML e CSS</p>
+## Como Usar
 
-#
+1. Clone o repositório: `git clone https://github.com/pedrohrocha18/padaria_do_pedrao.git`
+2. Abra o arquivo `index.html` em seu navegador.
 
-<a href= "https://pedrohrocha16.github.io/padaria-do-pedrao/">🔥Deploy🔥</a>
+## Personalização
 
-#
+Sinta-se à vontade para modificar o HTML e CSS de acordo com suas necessidades.
 
-<h4>Espero que gostem e aguardem os novos capítulos!!😎😉</h4>
+## Autor
 
-#
-
-<h5> Minhas redes sociais:</h5>  
-    <div> 
-        <a href=https://www.instagram.com/pedrorochaducks target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/pedrohrocha16" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-    </div>
+Pedro H. Rocha
