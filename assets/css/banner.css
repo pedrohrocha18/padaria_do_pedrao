@@ -1,0 +1,102 @@
+.banner {   
+    width: 100%;
+}
+.banner__pags {
+    width: 100%;
+}
+.banner__titulo {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;
+    text-shadow: 4px 3px 2px black;
+}
+.banner__titulo2{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;
+}
+.banner__titulo3{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;
+}
+.banner__titulo4{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;
+}
+
+
+/* Layout responsivo */
+
+
+@media screen and (min-width: 0){
+    .banner, .banner__pags {
+        height: 310px;
+    }
+     
+    .banner__titulo{
+        color: rgb(241 241 241);
+        font-size: 50px;
+        left: 10%;
+        text-shadow: 4px 3px 2px black;
+        top: 30%;
+    }
+    .banner__titulo2{
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+        left: 15%;
+        text-shadow: -3px 5px 2px black;
+        top: 22%;
+    }
+    .banner__titulo3 {
+        color: rgb(255, 255, 255);
+        font-size: 46px;
+        left: 20%;
+        text-shadow: 6px -1px 2px black;
+        top: 25%;
+    }
+    .banner__titulo4 {
+        color: rgb(241 241 241);
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        left: 5%;
+        text-shadow: -2px 7px 3px black;
+        top: 22%;
+    }
+}
+@media screen and (min-width: 768px){
+    .banner {
+        height: 560px;
+    }
+    .banner__pags {
+        height: 560px;
+    }
+    .banner__titulo{
+        font-size: 85px;
+        left: 30%;
+        top: 35%;
+    }
+    .banner__titulo2 {
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        left: 30%;
+        text-shadow: -9px -1px 3px black;
+        top: 40%;
+    }
+    .banner__titulo3 {
+        color: rgb(255, 255, 255);
+        font-size: 115px;
+        left: 18%;
+        text-shadow: -9px -1px 3px black;
+        top: 35%;
+    }
+    .banner__titulo4 {
+        color: rgb(225 235 237);
+        font-family: 'Pacifico', cursive;
+        font-size: 90px;
+        left: 22%;
+        text-shadow: -6px 10px 5px black;
+        top: 32%;
+    }
+}

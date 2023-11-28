@@ -1,0 +1,20 @@
+.header__titulo {
+    font-family: 'Lobster', cursive;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+@media screen and (min-width: 0){
+    .header__titulo {
+        font-size: 18px;
+        font-weight: 200;
+        padding-left: 0px;      
+    }
+
+}
+@media screen and (min-width: 768px){
+    .header__titulo {
+        font-size: 2em;
+        padding-left: 10px;
+    }
+
+}

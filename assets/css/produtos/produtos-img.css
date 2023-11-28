@@ -1,0 +1,27 @@
+.produtos__img {
+    border-radius: 60px;
+    height: 266px;
+    padding-right: 2px;
+    
+}
+.produtos__img1{
+    border-radius: 60px;
+    height: 266px;
+    padding-right: 2px;
+    width: 100%;
+}
+@media screen and (min-width: 0){
+    .produtos__img, .produtos__img1 {
+        margin: 8px 0 0 -145px;
+        width: 130%;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .produtos__img , .produtos__img1 {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+}
+

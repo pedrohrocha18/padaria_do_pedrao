@@ -1,0 +1,13 @@
+.imagensPrincipal__img {
+    border-radius: 10px;
+}
+@media screen and (min-width:0){
+    .imagensPrincipal__img{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 768px){
+    .imagensPrincipal__img{
+        width: 60%;
+    }
+}

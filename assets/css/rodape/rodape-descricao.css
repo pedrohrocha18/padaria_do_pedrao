@@ -1,0 +1,12 @@
+@media screen and (min-width:0){
+    .rodape__descricao{
+        font-size: 10px;
+        
+    }
+}
+@media screen and (min-width: 768px){
+    .rodape__descricao{
+        font-size: 9px;
+        font-weight: bold;
+    }  
+}

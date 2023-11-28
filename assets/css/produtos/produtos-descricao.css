@@ -1,0 +1,20 @@
+.produtos__descricao {
+    color:rgb(27, 26, 26);
+    font-family: 'Lobster', cursive;
+    
+    text-align: center;
+}
+@media screen and (min-width: 0) {
+    .produtos__descricao{
+        font-size: 25px;
+        font-weight: lighter;
+        margin: 30px 69px 12px -60px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .produtos__descricao{
+        font-size: 28px;
+        font-weight: 200;
+        margin: 30px 0 12px 0;
+    }
+}

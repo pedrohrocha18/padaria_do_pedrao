@@ -1,0 +1,16 @@
+.titulo-trabalheconosco {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+@media screen and (min-width: 0){
+    .titulo-trabalheconosco{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 768px){
+    .titulo-trabalheconosco{
+        font-size: 35px;
+    }
+}

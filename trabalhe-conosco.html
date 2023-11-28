@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/> 
+        <link rel="icon" href="assets\img\icon.png" type="img/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets\css\reset.css">
+        <link rel="stylesheet" href="assets\css\normalize.css">
+        <title>Trabalhe Conosco - Padaria do Pedrão</title>
+
+        <link rel="stylesheet" href="assets\css\body.css">
+        <link rel="stylesheet" href="assets\css\header\header.css">
+        <link rel="stylesheet" href="assets\css\header\header-titulo.css">
+        <link rel="stylesheet" href="assets\css\header\header-nav.css">
+        <link rel="stylesheet" href="assets\css\header\header-titulo.css">
+        <link rel="stylesheet" href="assets\css\header\header-itens.css">
+        <link rel="stylesheet" href="assets\css\header\header-link.css">
+        <link rel="stylesheet" href="assets\css\banner.css">
+        <link rel="stylesheet" href="assets\css\rodape\rodape.css">
+        <link rel="stylesheet" href="assets\css\rodape\rodape-imagem.css">
+        <link rel="stylesheet" href="assets\css\rodape\rodape-descricao.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-send.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-select.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-nome.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-input.css">
+        <link rel="stylesheet" href="assets\css\titulo-trabalheconosco.css">
+    </head>
+
+    <body class="body">
+        <header class="header">
+            <h1 class="header__titulo">Padaria do Pedrão</h1>
+            <ul class="header__nav">
+                <li class="header__itens"><a class="header__link" href="index.html">Início</a></li>
+                <li class="header__itens"><a class="header__link" href="produtos.html">Produtos</a></li>
+                <li class="header__itens"><a class="header__link" href="contato.html">Contato</a></li>
+                <li class="header__itens"><a class="header__link" href="trabalhe-conosco.html">Trabalhe Conosco</a></li>
+            </ul>
+        </header>
+        <section>  
+            <img class="banner__pags" src="assets\img\contato.jpg" alt="banner-principal">
+            <h2 class="banner__titulo2">Trabalhe Conosco</h2>
+        </section>
+            <h3 class="titulo-trabalheconosco">Preencha o formulário abaixo:</h3>
+
+        <form class="formulario">
+            <section>
+                <label for="nome" class="formulario__nome">Nome completo:</label>
+                <input type="text" id="nome" class="formulario__input" required>
+
+                <label for="telefone" class="formulario__nome">Telefone:</label>
+                <input type="tel" id="telefone" class="formulario__input" required placeholder="(XX) X XXXX-XXXX">
+
+                <label for="e-mail" class="formulario__nome">E-mail:</label>
+                <input type="email" id="e-mail" class="formulario__input" required placeholder="seuemail@dominio.com">
+            </section> 
+            <section>   
+                <label class="formulario__nome">Currículo:</label>
+                <input type="file" class="formulario__select" required>
+
+            <input type="submit" id="enviar-dados" class="formulario__send" value="Enviar Dados">
+            </section>
+        </form>    
+        <footer class="rodape">
+            <img class="rodape__imagem" src="assets\img\rodape-img.png" alt="icon">
+            <p class="rodape__descricao">&#169;Padaria do Pedrão 2022 - Patos de Minas - MG</p>
+        </footer>
+    </body>
+</html>
